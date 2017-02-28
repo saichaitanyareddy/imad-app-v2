@@ -19,6 +19,9 @@ button.onclick = function () {
     request.open('GET','http://http://saichaitanyareddy.imad.hasura-app.io/counter',true);
     request.send(null);
   
-    
+    var name=document.getElementById('name');
+    var name=nameInput.value;
+    var submit=document.getElementById('submit_btn');
+    submit.onclick= function() {
    
 };
